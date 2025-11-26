@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>cssgenerator</title>
+		<link rel="stylesheet" href="main.css" />
+	</head>
+	<body>
+		<div class="panel-container">
+			<div class="left-panel">
+				<h1>Border Radius</h1>
+				<p>All corners radius:</p>
+				<input
+					type="range"
+					id="all-corners"
+					min="0"
+					max="200"
+					value="10"
+				/>
+				<p>Top left radius:</p>
+				<input
+					type="range"
+					id="top-left"
+					min="0"
+					max="200"
+					value="10"
+				/>
+				<p>Top Right radius:</p>
+				<input
+					type="range"
+					id="top-right"
+					min="0"
+					max="200"
+					value="10"
+				/>
+				<p>Bottom right radius:</p>
+				<input
+					type="range"
+					id="bottom-right"
+					min="0"
+					max="200"
+					value="10"
+				/>
+				<p>Bottom left radius:</p>
+				<input
+					type="range"
+					id="bottom-left"
+					min="0"
+					max="200"
+					value="10"
+				/>
+				<p>Border Width</p>
+				<input
+					type="range"
+					id="border-width"
+					min="0"
+					max="200"
+					value="10"
+				/>
+			</div>
+			<div class="figure"></div>
+			<div class="right-panel">
+				<h1>Border Options</h1>
+				<p>Border width (all borders)</p>
+				<input
+					type="range"
+					id="all-borders"
+					min="0"
+					max="200"
+					value="10"
+				/>
+				<div class="figure-color">
+					<p>Border color</p>
+					<input type="color" id="border-color" value="#ff6550" />
+					<p>Background color</p>
+					<input type="color" id="background-color" value="#ffffff" />
+					<p>Border Style</p>
+					<select id="border-style">
+						<option value="solid">solid</option>
+						<option value="dotted">dotted</option>
+						<option value="dashed">dashed</option>
+						<option value="double">double</option>
+						<option value="groove">groove</option>
+						<option value="ridge">ridge</option>
+						<option value="inset">inset</option>
+						<option value="outset">outset</option>
+						<option value="none">none</option>
+						<option value="hidden">hidden</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<script src="main.js"></script>
+	</body>
+</html>

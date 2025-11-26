@@ -1,0 +1,13 @@
+.panel-container {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+	height: 100vh;
+}
+.figure {
+	width: 150px;
+	height: 150px;
+	border-radius: 10px;
+	border: 10px solid black;
+	align-self: center;
+}
